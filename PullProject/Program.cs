@@ -20,11 +20,5 @@ static void Printnumbers ( string Title, int[] numbers )
 	Console.Write(" ]");
 	Console.WriteLine();
 }
-static bool IsEven ( int n )
-{
-	return n % 2 == 0;
-}
-static bool IsOdd ( int n )
-{
-	return n % 2 != 0;
-}
+static bool IsEven ( int n ) => n % 2 == 0;
+static bool IsOdd ( int n ) => n % 2 != 0;
